@@ -21,12 +21,12 @@ const ParticleSnow = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        background: {
-          color: {
-            value: "#232741",
-            // value: "#820000",
-          },
-        },
+        // background: {
+        //   color: {
+        //     value: "#232741",
+        //     // value: "#820000",
+        //   },
+        // },
         fpsLimit: 600,
         fullScreen: {
           enable: true,

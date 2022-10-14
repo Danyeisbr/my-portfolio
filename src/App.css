@@ -1,26 +1,8 @@
-h1, h2, h3, h4, h5 {
-  font-family: font-file-82132;
+* {
+    margin: 0;
+    padding: 0;    
 }
 
-.navbar-aside {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-}
-
-.info {
-  /* background-color: rgb(182, 25, 36); */
-  /* background-color: #820000; */
-  /* background-color: #232741; */
-  /* background-color: #1d1d1d; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  margin-left: 100px;
-  color: white;
+html, body {
+    font-family: font-file-82132;
 }

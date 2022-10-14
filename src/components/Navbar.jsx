@@ -6,83 +6,69 @@ import { SiGmail } from "react-icons/si";
 
 function Navbar() {
   return (
-    <div className="navbar-aside col-md-1 bg-dark">
-      <nav
-        className="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center fixed-left"
-        id="sidebar"
-      >
-        <div className="text-center p-3">
-          <img
-            src={require(`../images/foto.jpg`)}
-            alt="profile"
-            className="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"
-          />
-          <a
-            href="/inicio"
-            className="navbar-brand mx-0 font-weight-bold  text-nowrap"
-          >
+    <div className="col-md-12">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/home">
             Danyeis
           </a>
-        </div>
-        <button
-          type="button"
-          className="navbar-toggler border-0 order-1"
-          data-toggle="collapse"
-          data-target="#nav"
-          aria-controls="nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse order-last" id="nav">
-          <ul className="navbar-nav flex-column w-100 justify-content-center">
-            <li className="nav-item">
-              <a href="/inicio" className="nav-link active">
-                Home
-              </a>
-              <hr />
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarColor02">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item">
+                <a className="nav-link active" href="/home">
+                  Home
+                  <span className="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/skills">
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">
+                  Contact
+                </a>
+              </li>
+              <li className="nav-item">
             </li>
-            <li className="nav-item">
-              <a href="/about" className="nav-link">
-                About
-              </a>
-              <hr />
-            </li>
-            <li className="nav-item">
-              <a href="/skills" className="nav-link">
-                Skills
-              </a>
-              <hr />
-            </li>
-            <li className="nav-item">
-              <a href="/portfolio" className="nav-link">
-                Portfolio
-              </a>
-              <hr />
-            </li>
-            <li className="nav-item">
-              <a href="/contact" className="nav-link">
-                Contact
-              </a>
-              <hr />
-            </li>
-            <li className="nav-item">
-              <h5>
+            </ul>
+            <form className="d-flex">
+            <h4>
                 <BsLinkedin />
-                {"  "}
+                {" "}
                 <BsGithub />
-                {"  "}
+                {" "}
                 <SiGmail />
-                {"  "}
-              </h5>
-              <h5>
-                <BsInstagram />{" "}
-                <BsWhatsapp />{" "}
-              </h5>
-            </li>
-          </ul>
+                {" "}
+                <BsInstagram />
+                {" "}
+                <BsWhatsapp />
+                {" "}
+              </h4>
+            </form>
+          </div>
         </div>
       </nav>
     </div>
