@@ -7,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 function Navbar() {
   return (
     <div className="col-md-12">
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/home">
             Danyeis

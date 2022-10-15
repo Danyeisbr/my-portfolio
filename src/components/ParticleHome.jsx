@@ -2,9 +2,9 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const ParticleSnow = () => {
+const ParticleHome = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
+    //console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -12,7 +12,7 @@ const ParticleSnow = () => {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    //await console.log(container);
   }, []);
 
   return (
@@ -21,12 +21,12 @@ const ParticleSnow = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        // background: {
-        //   color: {
-        //     value: "#232741",
-        //     // value: "#820000",
-        //   },
-        // },
+        background: {
+          color: {
+            value: "#232741",
+            //value: "#820000",
+          },
+        },
         fpsLimit: 600,
         fullScreen: {
           enable: true,
@@ -41,8 +41,8 @@ const ParticleSnow = () => {
             },
           },
           color: {
-            // value: "#ffffff",
-            value: "#08fdd8",
+            value: "#ffffff",
+            //value: "#08fdd8",
           },
           shape: {
             type: "circle",
@@ -146,4 +146,4 @@ const ParticleSnow = () => {
     />
   );
 };
-export default ParticleSnow;
+export default ParticleHome;
