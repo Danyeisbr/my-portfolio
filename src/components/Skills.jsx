@@ -6,12 +6,12 @@ function Skills() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row section align-items-center"
-            // style={{ "background-color": "#1d1d1d" }}
+            className="row section align-items-center justify-content-center"
+            style={{ "background-color": "#1d1d1d" }}
           >
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="card mb-3">
-                <h3 className="card-header">Skills & Experience</h3>
+                <h3 className="card-header text-center">Skills</h3>
                 <div className="card-body">
                   <h5 className="card-title">Front-end</h5>
                   <h6 className="card-subtitle text-muted">
@@ -44,9 +44,9 @@ function Skills() {
                 <div className="card-footer text-muted"> </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="card mb-3">
-                {/* <h3 className="card-header">Knowledge</h3> */}
+                <h3 className="card-header text-center"> Experience </h3>
                 <div className="card-body">
                   <p className="card-text">Front-end</p>
                   <div className="progress">
@@ -101,9 +101,13 @@ function Skills() {
                   </li>
                 </ul>
                 <div className="card-body">
-                  <a href="/contact" className="card-link">
-                    Let's make something special
-                  </a>
+                  <button
+                    type="button"
+                    className="btn btn-lg col-md-12"
+                    style={{ "background-color": "#FF302F" }}
+                  >
+                    Let's talk about your project!
+                  </button>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>

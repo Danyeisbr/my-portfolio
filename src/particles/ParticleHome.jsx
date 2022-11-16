@@ -70,7 +70,7 @@ const ParticleHome = () => {
             },
           },
           size: {
-            value: 8,
+            value: 5,
             random: true,
             anim: {
               enable: false,
@@ -105,8 +105,8 @@ const ParticleHome = () => {
           //detect_on: "canvas",
           events: {
             onHover: {
-              enable: true,
-              mode: ["grab", "bubble"],
+              //enable: true,
+              //mode: ["grab", "bubble"],
               //mode: "grab",
             },
             onclick: {

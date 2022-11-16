@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import ParticleHome from "./ParticleHome";
+import ParticleHome from "../particles/ParticleHome";
 import "../stylesheets/Section.css";
 
 function Home() {
@@ -14,10 +14,13 @@ function Home() {
           >
             <div className="col-md-4">
               <h1>
+                <br />
                 Hi, <br />
-                I'm Danyeis, <br />
+                I'm <strong style={{ color: "#FF302F" }}>Dan</strong>yeis,{" "}
+                <br />
                 Full Stack Developer <br />
-              </h1>
+              </h1>{" "}
+              <br />
               <h2 className="text-center">
                 <Typewriter
                   loop
@@ -44,8 +47,12 @@ function Home() {
                   ]}
                 />
               </h2>
-              <br/> <br />
-              <button type="button" className="btn btn-primary btn-lg col-md-12">
+              <br /> <br />
+              <button
+                type="button"
+                style={{ "background-color": "#FF302F" }}
+                className="btn btn-lg col-md-12"
+              >
                 Contact me!
               </button>
             </div>

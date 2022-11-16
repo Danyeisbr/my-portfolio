@@ -7,9 +7,9 @@ function Contact() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row section"
+            className="row section bg-dark"
             // style={{ "background-color": "#232741" }}
-            style={{"backgroundColor": "#212529",}}
+            //style={{"backgroundColor": "#212529",}}
           >
             <div className="col-md-6">
               <div className="card mb-2 mt-3">
@@ -83,9 +83,10 @@ function Contact() {
                       <div className="d-grid gap-2">
                         <button
                           type="submit"
-                          className="btn btn-lg btn-primary"
+                          className="btn btn-lg"
+                          style={{ "background-color": "#FF302F" }}
                         >
-                          Submit
+                          Get in touch!
                         </button>
                       </div>
                     </fieldset>
