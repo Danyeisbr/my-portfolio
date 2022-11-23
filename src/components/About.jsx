@@ -1,4 +1,3 @@
-import "../stylesheets/Section.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiHtml5 } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
@@ -20,8 +19,8 @@ function About() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row section align-items-center justify-content-center bg-light"
-            //style={{ "background-color": "#635d71" }}
+            className="row min-vh-100 align-items-center justify-content-center bg-light"
+            //style={{ "backgroundColor": "#635d71" }}
           >
             <div className="col-md-3">
               <div className="card mt-3 mb-3">
@@ -100,7 +99,7 @@ function About() {
                   <button
                     type="button"
                     className="btn btn-lg col-md-12"
-                    style={{ "background-color": "#FF302F" }}
+                    style={{ "backgroundColor": "#FF302F" }}
                   >
                     Let's make something special!
                   </button>

@@ -5,14 +5,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
-import "../stylesheets/Section.css";
+import "../stylesheets/ImagesSlider.css";
 
 function Projects() {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
-          <div className="row section">
+          <div className="row min-vh-100">
             <Swiper
               style={{
                 "--swiper-navigation-color": "#fff",
@@ -29,7 +29,8 @@ function Projects() {
               slidesPerView={1}
               loop
               centeredSlides={true}
-              className="mySwiper"
+              className="mySwiper w-100 vh-100"
+              
             >
               <SwiperSlide className="imageSlider">
                 <img src={require(`../images/1.jpg`)} alt="one" /> 

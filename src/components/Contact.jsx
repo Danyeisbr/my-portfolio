@@ -1,5 +1,4 @@
-import "../stylesheets/Section.css";
-import "../stylesheets/Maps.css";
+import { BsFillStarFill } from "react-icons/bs";
 
 function Contact() {
   return (
@@ -7,101 +6,101 @@ function Contact() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row section bg-dark"
-            // style={{ "background-color": "#232741" }}
-            //style={{"backgroundColor": "#212529",}}
+            className="row d-flex justify-content-center align-items-center"
+            style={{ backgroundColor: "#212529", minHeight: "80vh",
+           }}
           >
-            <div className="col-md-6">
-              <div className="card mb-2 mt-3">
-                <h3 className="card-header">Contact Me</h3>
-                <div className="card-body">
-                  <p className="card-text">
-                    I’m interested in freelance opportunities – especially
-                    ambitious or large projects. However, if you have other
-                    request or question, don’t hesitate to use the form.
-                  </p>
-                  <form>
-                    <fieldset>
-                      <div className="form-group">
-                        <label
-                          htmlFor="exampleInputName"
-                          className="form-label mt-4"
-                        >
-                          Name
-                        </label>
-                        <input
-                          type="name"
-                          className="form-control"
-                          id="exampleInputName"
-                          aria-describedby="nameHelp"
-                          placeholder="Enter name"
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label
-                          htmlFor="exampleInputEmail1"
-                          className="form-label mt-4"
-                        >
-                          Email
-                        </label>
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="exampleInputEmail1"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter email"
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label
-                          htmlFor="exampleInputSubject"
-                          className="form-label mt-4"
-                        >
-                          Subject
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="exampleInputSubject"
-                          placeholder="Subject"
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label
-                          htmlFor="exampleTextarea"
-                          className="form-label mt-4"
-                        >
-                          Message
-                        </label>
-                        <textarea
-                          className="form-control"
-                          id="exampleTextarea"
-                          rows="3"
-                        ></textarea>
-                      </div>
-                      <br />
-                      <div className="d-grid gap-2">
-                        <button
-                          type="submit"
-                          className="btn btn-lg"
-                          style={{ "background-color": "#FF302F" }}
-                        >
-                          Get in touch!
-                        </button>
-                      </div>
-                    </fieldset>
-                  </form>
+            <div className="col-md-5">
+              <div className="row">
+                <div className="col">
+                  {/* <h4>
+                    <strong style={{ color: "#FF302F" }}>Contact Me</strong>
+                  </h4> */}
+                  <div className="card">
+                    <h2 className="card-header">
+                      {" "}
+                      <strong>Work Inquiry</strong>
+                    </h2>
+                    <div className="card-body">
+                      <form>
+                        <fieldset>
+                          <div className="form-group">
+                            <input
+                              type="name"
+                              className="form-control mt-4 form-control-lg"
+                              id="exampleInputName"
+                              aria-describedby="nameHelp"
+                              rows="3"
+                              placeholder="Your name"
+                            />
+                          </div>
+                          <div className="form-group">
+                            <input
+                              type="email"
+                              className="form-control mt-4 form-control-lg"
+                              id="exampleInputEmail1"
+                              aria-describedby="emailHelp"
+                              rows="3"
+                              placeholder="Your email"
+                            />
+                          </div>
+                          <div className="form-group">
+                            <textarea
+                              className="form-control mt-4 form-control-lg"
+                              id="exampleTextarea"
+                              rows="3"
+                              placeholder="Your Message"
+                            ></textarea>
+                          </div>
+                          <br />
+                          <div className="d-grid gap-2">
+                            <button
+                              type="submit"
+                              className="btn btn-lg"
+                              style={{ "backgroundColor": "#FF302F" }}
+                            >
+                              Get in touch!
+                            </button>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="map-container">
-                <iframe
-                  title="maps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16289935.138808182!2d-83.39014687056077!3d4.587751103547316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses-419!2sco!4v1665812324757!5m2!1ses-419!2sco"
-                  frameBorder="0"
-                  allowFullScreen
-                ></iframe>
+            <div className="col-md-5 py-5">
+              <div className="row d-flex flex-column">
+                <div className="col">
+                  <h4>
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                  </h4>
+                  <p className="text-muted mb-0">
+                    5.00 (1300+ Review) from Clients.{" "}
+                  </p>
+                  <h2>
+                    <strong> Clients </strong>
+                  </h2>
+                </div>
+                <div className="col">
+                  <h4>
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="yellow" />{" "}
+                  </h4>
+                  <p className="text-muted mb-0">
+                    5.00 (700+ Review) on Upwork.{" "}
+                  </p>
+                  <h2>
+                    <strong>Upwork</strong>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>

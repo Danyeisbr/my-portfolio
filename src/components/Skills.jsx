@@ -1,13 +1,11 @@
-import "../stylesheets/Section.css";
-
 function Skills() {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row section align-items-center justify-content-center"
-            style={{ "background-color": "#1d1d1d" }}
+            className="row min-vh-100 d-flex align-items-center justify-content-around"
+            style={{ "backgroundColor": "#1d1d1d" }}
           >
             <div className="col-md-5">
               <div className="card mb-3">
@@ -104,7 +102,7 @@ function Skills() {
                   <button
                     type="button"
                     className="btn btn-lg col-md-12"
-                    style={{ "background-color": "#FF302F" }}
+                    style={{ "backgroundColor": "#FF302F" }}
                   >
                     Let's talk about your project!
                   </button>

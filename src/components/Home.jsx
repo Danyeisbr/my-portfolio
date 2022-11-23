@@ -1,6 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
 import ParticleHome from "../particles/ParticleHome";
-import "../stylesheets/Section.css";
 
 function Home() {
   return (
@@ -9,8 +8,8 @@ function Home() {
         <div className="col-md-12">
           <ParticleHome />
           <div
-            className="row section d-flex flex-column justify-content-center align-items-center"
-            // style={{ "background-color": "#232741" }}
+            className="row min-vh-100 d-flex flex-column justify-content-center align-items-center"
+            // style={{ "backgroundColor": "#232741" }}
           >
             <div className="col-md-4">
               <h1>
@@ -50,7 +49,7 @@ function Home() {
               <br /> <br />
               <button
                 type="button"
-                style={{ "background-color": "#FF302F" }}
+                style={{ "backgroundColor": "#FF302F" }}
                 className="btn btn-lg col-md-12"
               >
                 Contact me!
