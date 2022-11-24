@@ -10,7 +10,10 @@ function Navbar() {
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/home">
-            <h4> <strong style={{ "color": "#FF302F" }}> Dan</strong>yeis</h4>
+            <h4>
+              {" "}
+              <strong style={{ color: "#FF302F" }}> Dan</strong>yeis
+            </h4>
           </a>
           <button
             className="navbar-toggler"
@@ -54,10 +57,13 @@ function Navbar() {
               <li className="nav-item"></li>
             </ul>
             <form className="d-flex">
-              <h4>
-                <BsLinkedin /> <BsGithub /> <SiGmail /> <BsInstagram />{" "}
-                <BsWhatsapp />{" "}
-              </h4>
+              <button
+                type="button"
+                className="btn col-md-12"
+                style={{ backgroundColor: "#FF302F" }}
+              >
+                Contact Me!
+              </button>
             </form>
           </div>
         </div>

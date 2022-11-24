@@ -4,8 +4,8 @@ function Skills() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row min-vh-100 d-flex align-items-center justify-content-around"
-            style={{ "backgroundColor": "#1d1d1d" }}
+            className="row min-vh-100 d-flex align-items-center justify-content-center"
+            //style={{ "backgroundColor": "#1d1d1d"}}
           >
             <div className="col-md-5">
               <div className="card mb-3">

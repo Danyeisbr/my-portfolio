@@ -1,12 +1,12 @@
 import { Typewriter } from "react-simple-typewriter";
-import ParticleHome from "../particles/ParticleHome";
+import ParticleBubble from "../particles/ParticleBubble";
 
 function Home() {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
-          <ParticleHome />
+          <ParticleBubble />
           <div
             className="row min-vh-100 d-flex flex-column justify-content-center align-items-center"
             // style={{ "backgroundColor": "#232741" }}
@@ -52,7 +52,7 @@ function Home() {
                 style={{ "backgroundColor": "#FF302F" }}
                 className="btn btn-lg col-md-12"
               >
-                Contact me!
+                Portfolio
               </button>
             </div>
           </div>

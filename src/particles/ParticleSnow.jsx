@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const ParticleHome = () => {
+const ParticleSnow = () => {
   const particlesInit = useCallback(async (engine) => {
     //console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -23,7 +23,7 @@ const ParticleHome = () => {
       options={{
         background: {
           color: {
-            value: "#232741",
+            //value: "#232741",
             //value: "#820000",
           },
         },
@@ -146,4 +146,4 @@ const ParticleHome = () => {
     />
   );
 };
-export default ParticleHome;
+export default ParticleSnow;

@@ -1,8 +1,9 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiHtml5 } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
 import { FaBootstrap, FaReact, FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
 import {
   SiTailwindcss,
   SiMaterialui,
@@ -10,6 +11,9 @@ import {
   SiExpress,
   SiPostgresql,
   SiSequelize,
+  SiMicrosoftsqlserver,
+  SiPhp,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -19,7 +23,7 @@ function About() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row min-vh-100 align-items-center justify-content-center bg-light"
+            className="row min-vh-100 align-items-center justify-content-center "
             //style={{ "backgroundColor": "#635d71" }}
           >
             <div className="col-md-3">
@@ -63,7 +67,8 @@ function About() {
                 </div>
                 <div className="card-body">
                   <p className="card-text">
-                    Front-end: HTML5, CSS3, JavaScript, Bootstrap, React, Tailwind, Material-UI, Redux.
+                    Front-end: HTML5, CSS3, JavaScript, Bootstrap, React,
+                    Tailwind, Material-UI, Redux, Visual Studio Code.
                   </p>
                 </div>
                 <div className="card-footer text-muted"> </div>
@@ -94,12 +99,28 @@ function About() {
                       projects that help me grow professionally.
                     </h5>
                   </div>
+                  <div className="card-body bg-light">
+                    <div className="row">
+                      <div className="col d-flex justify-content-center">
+                        <h5 className="card-text d-inline">
+                          <SiVisualstudiocode size="5rem" color="blue" />
+                        </h5>
+                      </div>
+                      <div className="col d-flex justify-content-center">
+                        <h5 className="card-text d-inline">
+                          <BsGithub size="5rem" color="black" />
+                        </h5>
+                      </div>
+                      <br />
+                      <br />
+                    </div>
+                  </div>
                 </div>
                 <div className="card-body">
                   <button
                     type="button"
                     className="btn btn-lg col-md-12"
-                    style={{ "backgroundColor": "#FF302F" }}
+                    style={{ backgroundColor: "#FF302F" }}
                   >
                     Let's make something special!
                   </button>
@@ -134,11 +155,22 @@ function About() {
                     <h5 className="card-text d-inline">
                       <GrMysql size="5rem" color="green" />
                     </h5>
+                    <br />
+                    <br />
+                  </div>
+                  <div className="row col-md-12 d-inline">
+                    <h5 className="card-text d-inline">
+                      <SiMicrosoftsqlserver size="5rem" color="red" />
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiPhp size="5rem" color="gray" />
+                    </h5>
                   </div>
                 </div>
                 <div className="card-body">
                   <p className="card-text">
-                    Back-end: NextJS, Node JS, Express, PostgreSQL, Sequalize, MySQL.
+                    Back-end: NextJS, Node JS, Express, PostgreSQL, Sequalize,
+                    MySQL, SQL Server, PHP.
                   </p>
                 </div>
                 <div className="card-footer text-muted"> </div>

@@ -7,8 +7,11 @@ function Contact() {
         <div className="col-md-12">
           <div
             className="row d-flex justify-content-center align-items-center"
-            style={{ backgroundColor: "#212529", minHeight: "80vh",
-           }}
+            style={{
+              //backgroundColor: "#212529",
+              backgroundImage: `url("https://cdn.dorik.com/5e3f05572ec26d00126dc051/61b87ff1675711001197f12c/images/ZK_Home_Testimonial_bg_Img_3yxs7p8z.jpg")`,
+              minHeight: "80vh",
+            }}
           >
             <div className="col-md-5">
               <div className="row">
@@ -57,7 +60,7 @@ function Contact() {
                             <button
                               type="submit"
                               className="btn btn-lg"
-                              style={{ "backgroundColor": "#FF302F" }}
+                              style={{ backgroundColor: "#FF302F" }}
                             >
                               Get in touch!
                             </button>
@@ -69,15 +72,15 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="col-md-5 py-5">
+            <div className="col-md-4 py-5">
               <div className="row d-flex flex-column">
                 <div className="col">
                   <h4>
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
                   </h4>
                   <p className="text-muted mb-0">
                     5.00 (1300+ Review) from Clients.{" "}
@@ -88,11 +91,11 @@ function Contact() {
                 </div>
                 <div className="col">
                   <h4>
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
-                    <BsFillStarFill color="yellow" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
+                    <BsFillStarFill color="#fdd500" />{" "}
                   </h4>
                   <p className="text-muted mb-0">
                     5.00 (700+ Review) on Upwork.{" "}
