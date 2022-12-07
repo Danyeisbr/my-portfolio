@@ -62,7 +62,7 @@ function Footer() {
                   <h4 className="text-center">
                     <a
                       target="_blank"
-                      href="https://github.com/DanyiBR"
+                      href="https://github.com/Danyeisbr"
                       style={{ color: "white" }}
                     >
                       <BsGithub className="icon"/>{" "}

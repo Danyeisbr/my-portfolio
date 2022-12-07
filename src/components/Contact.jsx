@@ -59,11 +59,16 @@ function Contact() {
                           <br />
                           <div className="d-grid gap-2">
                             <button
-                              type="submit"
+                              type="button"
                               className="btn btn-lg"
                               style={{ backgroundColor: "#FF302F" }}
                             >
-                              Get in touch!
+                              <a
+                              className="nav-link"
+                                href="mailto:danyeistj@gmail.com"
+                              >
+                                Get in touch!
+                              </a>
                             </button>
                           </div>
                         </fieldset>
