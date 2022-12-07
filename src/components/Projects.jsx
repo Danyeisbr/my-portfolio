@@ -26,9 +26,6 @@ export default function Projects() {
           >
             <div className="container">
               <div className="title_wrapper">
-                {/* <div className="reactLogo">
-                  Imagen aqui
-                </div> */}
                 <div className="title_">
                   <h2>
                     <strong> My Portfolio</strong>
@@ -57,6 +54,16 @@ export default function Projects() {
                 }}
                 className="mySwiper"
               >
+                <SwiperSlide>
+                  <h4 className="text-center">Weather App</h4>
+                  <p className="text-center">HTML, CSS, React & Bootstrap</p>
+                  <a
+                    target="_blank"
+                    href="https://danyeisbr.github.io/weather-app/"
+                  >
+                    <img src={require(`../images/weather-app.jpg`)} alt="weather" />
+                  </a>
+                </SwiperSlide>
                 <SwiperSlide>
                   <h4 className="text-center">Tasks App</h4>
                   <p className="text-center">React & Bootstrap</p>
