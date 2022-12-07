@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.aaa53399.css",
-    "main.js": "/my-portfolio/static/js/main.0b323325.js",
+    "main.js": "/my-portfolio/static/js/main.32da412f.js",
     "static/media/landscapes-app.jpg": "/my-portfolio/static/media/landscapes-app.5cb074d5b66825d3ca29.jpg",
+    "static/media/weather-app.jpg": "/my-portfolio/static/media/weather-app.a8ff062939d6f3afede1.jpg",
     "static/media/rick-morty-app1.png": "/my-portfolio/static/media/rick-morty-app1.03884a44fb5f7646e36b.png",
     "static/media/tasks-app.png": "/my-portfolio/static/media/tasks-app.2ad68c969aa1f938d35f.png",
     "static/media/calculator-app.png": "/my-portfolio/static/media/calculator-app.1fb71a4044b7ecf55fae.png",
     "index.html": "/my-portfolio/index.html",
     "main.aaa53399.css.map": "/my-portfolio/static/css/main.aaa53399.css.map",
-    "main.0b323325.js.map": "/my-portfolio/static/js/main.0b323325.js.map"
+    "main.32da412f.js.map": "/my-portfolio/static/js/main.32da412f.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa53399.css",
-    "static/js/main.0b323325.js"
+    "static/js/main.32da412f.js"
   ]
 }
