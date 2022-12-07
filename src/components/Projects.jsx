@@ -20,7 +20,8 @@ export default function Projects() {
       <div className="row">
         <div className="col-md-12">
           <div
-            className="row min-vh-100 align-items-start justify-content-center "
+            id="projects"
+            className="row min-vh-100 align-items-center justify-content-center "
             //style={{ backgroundColor: "#635d71" }}
           >
             <div className="container">
@@ -29,7 +30,9 @@ export default function Projects() {
                   Imagen aqui
                 </div> */}
                 <div className="title_">
-                  <h2>Portfolio</h2>
+                  <h2>
+                    <strong> My Portfolio</strong>
+                  </h2>
                 </div>
               </div>
               <Swiper
@@ -55,20 +58,53 @@ export default function Projects() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  imagen uno
-                  <img src={require(`../images/1.jpg`)} alt="one" />
+                  <h4 className="text-center">Tasks App</h4>
+                  <p className="text-center">React & Bootstrap</p>
+                  <a
+                    target="_blank"
+                    href="https://danyeisbr.github.io/react-tasks-app/"
+                  >
+                    <img src={require(`../images/tasks-app.png`)} alt="tasks" />
+                  </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                  imagen dos
-                  <img src={require(`../images/2.jpg`)} alt="two" />
+                  <h4 className="text-center">Turism App</h4>
+                  <p className="text-center">HTML, CSS & React</p>
+                  <a
+                    target="_blank"
+                    href="https://danyeisbr.github.io/tourism-app/"
+                  >
+                  <img
+                    src={require(`../images/landscapes-app.jpg`)}
+                    alt="landscapes"
+                  />
+                  </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                  imagen tres
-                  <img src={require(`../images/3.jpg`)} alt="three" />
+                  <h4 className="text-center">Rick & Morty App</h4>
+                  <p className="text-center">Vite, React & Bootstrap</p>
+                  <a
+                    href="https://danyeisbr.github.io/react-rick-and-morty/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require(`../images/rick-morty-app1.png`)}
+                      alt="rick-morty"
+                    />
+                  </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                  imagen cuatro
-                  <img src={require(`../images/4.jpg`)} alt="four" />
+                  <h4 className="text-center">Calculator App</h4>
+                  <p className="text-center">HTML, CSS & React</p>
+                  <a
+                    href="https://danyeisbr.github.io/calculator-app/"
+                    target="_blank"
+                  >
+                  <img
+                    src={require(`../images/calculator-app.png`)}
+                    alt="calculator"
+                  />
+                  </a>
                 </SwiperSlide>
               </Swiper>
             </div>

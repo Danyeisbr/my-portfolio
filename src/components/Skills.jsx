@@ -4,6 +4,7 @@ function Skills() {
       <div className="row">
         <div className="col-md-12">
           <div
+            id="skills"
             className="row min-vh-100 d-flex align-items-center justify-content-center"
             //style={{ "backgroundColor": "#1d1d1d"}}
           >
@@ -11,33 +12,35 @@ function Skills() {
               <div className="card mb-3">
                 <h3 className="card-header text-center">Skills</h3>
                 <div className="card-body">
-                  <h5 className="card-title">Front-end</h5>
-                  <h6 className="card-subtitle text-muted">
-                    Support card subtitle
-                  </h6>
-                </div>
-                <div className="card-body">
-                  <p className="card-text">
-                    Since beginning my journey as a freelance developer nearly
-                    10 years ago, I’ve done remote work for agencies, consulted
-                    for startups, and collaborated with talented people to
-                    create web products for both business and consumer use. I
-                    create successful responsive websites that are fast, easy to
-                    use, and built with best practices. The main area of my
-                    expertise is front-end development, HTML, CSS, JS, building
-                    small and medium web apps, custom plugins, features,
-                    animations, and coding interactive layouts. I also have
-                    full-stack developer experience with popular open-source CMS
-                    like (WordPress, Drupal, Magento, Keystone.js and others).
-                  </p>
-                  <p>
+                  <h5 className="card-text">
+                    Since beginning my journey as a technologist in software
+                    analysis and development, nearly 6 years ago, I created a
+                    web application for a company that needed to have more
+                    control in their production area, collaborating with
+                    talented people to create this web app for both business and
+                    consumer use. I created a successful responsive website that
+                    was fast, easy to use, and built with best practices. The
+                    main area of my experience now is front-end development,
+                    HTML5, CSS3, JavaScript, Bootstrap, React, TailwindCss,
+                    Material-UI, and Redux, building small and simple web apps,
+                    features, and coding interactive layouts. I also have a
+                    brief knowledge of back-end development with popular tools
+                    such as NextJS, Node JS, Express, PostgreSQL, Sequalize,
+                    MySQL, SQL Server, and PHP. Currently, I have been doing
+                    some work with open-source CMS like WordPress, Odoo, and
+                    others.
+                  </h5>
+                  <h5>
                     Visit my{" "}
-                    <a href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/"
+                    >
                       LinkedIn{" "}
                     </a>
                     profile for more details or just{" "}
-                    <a href="https://danyeisbravo.com/contact">contact </a>me.
-                  </p>
+                    <a href="#contact">contact </a>me.
+                  </h5>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>
@@ -46,7 +49,7 @@ function Skills() {
               <div className="card mb-3">
                 <h3 className="card-header text-center"> Experience </h3>
                 <div className="card-body">
-                  <p className="card-text">Front-end</p>
+                  <h6 className="card-text">Front-end</h6>
                   <div className="progress">
                     <div
                       className="progress-bar bg-success"
@@ -57,7 +60,7 @@ function Skills() {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <p className="card-text">Back-end</p>
+                  <h6 className="card-text">Back-end</h6>
                   <div className="progress">
                     <div
                       className="progress-bar bg-info"
@@ -68,7 +71,7 @@ function Skills() {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <p className="card-text">ReactJS</p>
+                  <h6 className="card-text">ReactJS</h6>
                   <div className="progress">
                     <div
                       className="progress-bar bg-warning"
@@ -79,7 +82,7 @@ function Skills() {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <p className="card-text">JavaScript</p>
+                  <h6 className="card-text">JavaScript</h6>
                   <div className="progress">
                     <div
                       className="progress-bar bg-danger"
@@ -93,18 +96,22 @@ function Skills() {
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
-                    I’m a Front-End Developer located in Colombia. I have a
-                    serious passion for UI design, animations and creating
-                    intuitive, dynamic user experiences.
+                    <h5>
+                      I’m a Front-End Developer located in Colombia. I have a
+                      great passion for UI design, animations and creating
+                      intuitive, dynamic user experiences.
+                    </h5>
                   </li>
                 </ul>
                 <div className="card-body">
                   <button
                     type="button"
                     className="btn btn-lg col-md-12"
-                    style={{ "backgroundColor": "#FF302F" }}
+                    style={{ backgroundColor: "#FF302F" }}
                   >
-                    Let's talk about your project!
+                    <a className="nav-link" href="#contact">
+                      Let's talk about your project!
+                    </a>
                   </button>
                 </div>
                 <div className="card-footer text-muted"> </div>

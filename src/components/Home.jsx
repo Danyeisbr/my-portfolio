@@ -8,6 +8,7 @@ function Home() {
         <div className="col-md-12">
           <ParticleBubble />
           <div
+            id="home"
             className="row min-vh-100 d-flex flex-column justify-content-center align-items-center"
             // style={{ "backgroundColor": "#232741" }}
           >
@@ -51,8 +52,8 @@ function Home() {
                 type="button"
                 style={{ "backgroundColor": "#FF302F" }}
                 className="btn btn-lg col-md-12"
-              >
-                Portfolio
+              ><a className="nav-link" href="#projects">
+                Portfolio</a>
               </button>
             </div>
           </div>

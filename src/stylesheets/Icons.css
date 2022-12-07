@@ -1,0 +1,17 @@
+.icon:hover {
+    animation-name: grow;
+    animation-duration: 1.3s;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }

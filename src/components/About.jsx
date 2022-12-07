@@ -1,6 +1,5 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { DiJavascript1 } from "react-icons/di";
 import { FaBootstrap, FaReact, FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
@@ -14,8 +13,10 @@ import {
   SiMicrosoftsqlserver,
   SiPhp,
   SiVisualstudiocode,
+  SiJavascript,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import '../stylesheets/Icons.css';
 
 function About() {
   return (
@@ -23,6 +24,7 @@ function About() {
       <div className="row">
         <div className="col-md-12">
           <div
+            id="about"
             className="row min-vh-100 align-items-center justify-content-center "
             //style={{ "backgroundColor": "#635d71" }}
           >
@@ -32,44 +34,44 @@ function About() {
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <AiFillHtml5 size="5rem" color="red" />
+                      <AiFillHtml5 size="5rem" color="#e44d26" className="icon"/>
                     </h5>
                     <h5 className="card-text d-inline">
-                      <DiCss3 size="5rem" color="blue" />
+                      <DiCss3 size="5rem" color="#156eb0" className="icon"/>
                     </h5>
                     <h5 className="card-text d-inline">
-                      <DiJavascript1 size="5rem" color="yellow" />
-                    </h5>
-                    <br />
-                    <br />
-                  </div>
-                  <div className="row col-md-12 d-inline">
-                    <h5 className="card-text d-inline">
-                      <FaBootstrap size="5rem" color="purple" />
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <FaReact size="5rem" color="green" />
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <SiTailwindcss size="5rem" color="purple" />
+                      <SiJavascript size="5rem" color="#f3cf01" className="icon"/>
                     </h5>
                     <br />
                     <br />
                   </div>
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <SiMaterialui size="5rem" color="blue" />
+                      <FaBootstrap size="5rem" color="#7a11f7" className="icon"/>
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiRedux size="5rem" color="purple" />
+                      <FaReact size="5rem" color="green" className="icon"/>
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiTailwindcss size="5rem" color="purple" className="icon"/>
+                    </h5>
+                    <br />
+                    <br />
+                  </div>
+                  <div className="row col-md-12 d-inline">
+                    <h5 className="card-text d-inline">
+                      <SiMaterialui size="5rem" color="#0071e3" className="icon" />
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiRedux size="5rem" color="#593d88" className="icon"/>
                     </h5>
                   </div>
                 </div>
                 <div className="card-body">
-                  <p className="card-text">
+                  <h5 className="card-text">
                     Front-end: HTML5, CSS3, JavaScript, Bootstrap, React,
                     Tailwind, Material-UI, Redux, Visual Studio Code.
-                  </p>
+                  </h5>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>
@@ -103,12 +105,12 @@ function About() {
                     <div className="row">
                       <div className="col d-flex justify-content-center">
                         <h5 className="card-text d-inline">
-                          <SiVisualstudiocode size="5rem" color="blue" />
+                          <SiVisualstudiocode size="5rem" color="#038bcf" className="icon"/>
                         </h5>
                       </div>
                       <div className="col d-flex justify-content-center">
                         <h5 className="card-text d-inline">
-                          <BsGithub size="5rem" color="black" />
+                          <BsGithub size="5rem" color="black" className="icon"/>
                         </h5>
                       </div>
                       <br />
@@ -121,8 +123,8 @@ function About() {
                     type="button"
                     className="btn btn-lg col-md-12"
                     style={{ backgroundColor: "#FF302F" }}
-                  >
-                    Let's make something special!
+                  ><a className="nav-link" href="#contact">
+                    Let's make something special!</a>
                   </button>
                 </div>
                 <div className="card-footer text-muted"> </div>
@@ -134,44 +136,44 @@ function About() {
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <TbBrandNextjs size="5rem" color="red" />
+                      <TbBrandNextjs size="5rem" color="black" className="icon" />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <FaNodeJs size="5rem" color="green" />
+                      <FaNodeJs size="5rem" color="#026e00" className="icon" />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiExpress size="5rem" color="black" />
-                    </h5>
-                    <br />
-                    <br />
-                  </div>
-                  <div className="row col-md-12 d-inline">
-                    <h5 className="card-text d-inline">
-                      <SiPostgresql size="5rem" color="gray" />
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <SiSequelize size="5rem" color="blue" />
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <GrMysql size="5rem" color="green" />
+                      <SiExpress size="5rem" color="black" className="icon"/>
                     </h5>
                     <br />
                     <br />
                   </div>
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <SiMicrosoftsqlserver size="5rem" color="red" />
+                      <SiPostgresql size="5rem" color="#31648c" className="icon"/>
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiPhp size="5rem" color="gray" />
+                      <SiSequelize size="5rem" color="#3c76c3" className="icon"/>
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <GrMysql size="5rem" color="#037790" className="icon"/>
+                    </h5>
+                    <br />
+                    <br />
+                  </div>
+                  <div className="row col-md-12 d-inline">
+                    <h5 className="card-text d-inline">
+                      <SiMicrosoftsqlserver size="5rem" color="#d84f4d" className="icon"/>
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiPhp size="5rem" color="gray" className="icon"/>
                     </h5>
                   </div>
                 </div>
                 <div className="card-body">
-                  <p className="card-text">
+                  <h5 className="card-text">
                     Back-end: NextJS, Node JS, Express, PostgreSQL, Sequalize,
                     MySQL, SQL Server, PHP.
-                  </p>
+                  </h5>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>

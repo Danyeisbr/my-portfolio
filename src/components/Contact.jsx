@@ -6,6 +6,7 @@ function Contact() {
       <div className="row">
         <div className="col-md-12">
           <div
+            id="contact"
             className="row d-flex justify-content-center align-items-center"
             style={{
               //backgroundColor: "#212529",
