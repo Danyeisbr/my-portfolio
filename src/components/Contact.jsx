@@ -1,6 +1,29 @@
+import React, { useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_e93dobe",
+        "template_pv7tlep",
+        e.target,
+        "v_-ltRCoIUpjqy_a4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="container-fluid">
       <div className="row">
@@ -26,11 +49,11 @@ function Contact() {
                       <strong>Work Inquiry</strong>
                     </h2>
                     <div className="card-body">
-                      <form>
+                      <form ref={form} onSubmit={sendEmail}>
                         <fieldset>
                           <div className="form-group">
                             <input
-                              type="name"
+                              type="text" name="user_name"
                               className="form-control mt-4 form-control-lg"
                               id="exampleInputName"
                               aria-describedby="nameHelp"
@@ -40,7 +63,7 @@ function Contact() {
                           </div>
                           <div className="form-group">
                             <input
-                              type="email"
+                              type="email" name="user_email"
                               className="form-control mt-4 form-control-lg"
                               id="exampleInputEmail1"
                               aria-describedby="emailHelp"
@@ -50,6 +73,7 @@ function Contact() {
                           </div>
                           <div className="form-group">
                             <textarea
+                              name="message"
                               className="form-control mt-4 form-control-lg"
                               id="exampleTextarea"
                               rows="3"
@@ -59,16 +83,11 @@ function Contact() {
                           <br />
                           <div className="d-grid gap-2">
                             <button
-                              type="button"
+                              type="submit"
                               className="btn btn-lg"
                               style={{ backgroundColor: "#FF302F" }}
                             >
-                              <a
-                              className="nav-link"
-                                href="mailto:danyeistj@gmail.com"
-                              >
                                 Get in touch!
-                              </a>
                             </button>
                           </div>
                         </fieldset>
