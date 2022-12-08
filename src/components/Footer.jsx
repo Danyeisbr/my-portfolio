@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsTelephone } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { SiGmail, SiWhatsapp } from "react-icons/si";
-import '../stylesheets/Icons.css';
+import "../stylesheets/Icons.css";
 
 function Footer() {
   return (
@@ -21,11 +21,29 @@ function Footer() {
                   <h4 className="text-center">
                     <a
                       target="_blank"
-                      href="https://api.whatsapp.com/send?phone=573008127497"
+                      href="tel:+573008127497"
                       style={{ color: "white" }}
+                      rel="noreferrer"
                     >
                       {/* Con mensaje predefinido
-<a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Nececito mas informacion!">Envíanos un mensaje de WhatsApp</a> */}
+                        <a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Nececito mas informacion!">Envíanos un mensaje de WhatsApp</a> */}
+                      <BsTelephone className="icon" />
+                    </a>
+                  </h4>
+                  <p className="text-center">
+                    Cellphone <br />
+                  </p>
+                </div>
+                <div className="col">
+                  <h4 className="text-center">
+                    <a
+                      target="_blank"
+                      href="https://api.whatsapp.com/send?phone=573008127497"
+                      style={{ color: "white" }}
+                      rel="noreferrer"
+                    >
+                      {/* Con mensaje predefinido
+                        <a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Necesito mas informacion!">Envíanos un mensaje de WhatsApp</a> */}
                       <SiWhatsapp className="icon" />
                     </a>
                   </h4>
@@ -39,7 +57,7 @@ function Footer() {
                       href="mailto:danyeistj@gmail.com"
                       style={{ color: "white" }}
                     >
-                      <SiGmail className="icon"/>{" "}
+                      <SiGmail className="icon" />{" "}
                     </a>
                   </h4>
                   <p className="text-center">
@@ -52,8 +70,9 @@ function Footer() {
                       target="_blank"
                       href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/"
                       style={{ color: "white" }}
+                      rel="noreferrer"
                     >
-                      <BsLinkedin className="icon"/>{" "}
+                      <BsLinkedin className="icon" />{" "}
                     </a>
                   </h4>
                   <p className="text-center">Linkedin</p>
@@ -64,8 +83,9 @@ function Footer() {
                       target="_blank"
                       href="https://github.com/Danyeisbr"
                       style={{ color: "white" }}
+                      rel="noreferrer"
                     >
-                      <BsGithub className="icon"/>{" "}
+                      <BsGithub className="icon" />{" "}
                     </a>
                   </h4>
                   <p className="text-center">Github</p>
@@ -76,8 +96,9 @@ function Footer() {
                       style={{ color: "white" }}
                       target="_blank"
                       href="https://www.instagram.com/danye.bravo/"
+                      rel="noreferrer"
                     >
-                      <BsInstagram className="icon"/>{" "}
+                      <BsInstagram className="icon" />{" "}
                     </a>
                   </h4>
                   <p className="text-center">Instagram</p>

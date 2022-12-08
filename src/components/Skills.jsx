@@ -35,6 +35,7 @@ function Skills() {
                     <a
                       target="_blank"
                       href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/"
+                      rel="noreferrer"
                     >
                       LinkedIn{" "}
                     </a>

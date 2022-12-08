@@ -1,13 +1,18 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 function Contact() {
-  const form = useRef();
+  const [modal, setModal] = useState(false);
 
+  const handleClose = () => setModal(false);
+  const handleShow = () => setModal(true);
+
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_e93dobe",
@@ -40,9 +45,6 @@ function Contact() {
             <div className="col-md-5">
               <div className="row">
                 <div className="col">
-                  {/* <h4>
-                    <strong style={{ color: "#FF302F" }}>Contact Me</strong>
-                  </h4> */}
                   <div className="card">
                     <h2 className="card-header">
                       {" "}
@@ -53,7 +55,8 @@ function Contact() {
                         <fieldset>
                           <div className="form-group">
                             <input
-                              type="text" name="user_name"
+                              type="text"
+                              name="user_name"
                               className="form-control mt-4 form-control-lg"
                               id="exampleInputName"
                               aria-describedby="nameHelp"
@@ -63,7 +66,8 @@ function Contact() {
                           </div>
                           <div className="form-group">
                             <input
-                              type="email" name="user_email"
+                              type="email"
+                              name="user_email"
                               className="form-control mt-4 form-control-lg"
                               id="exampleInputEmail1"
                               aria-describedby="emailHelp"
@@ -84,12 +88,29 @@ function Contact() {
                           <div className="d-grid gap-2">
                             <button
                               type="submit"
+                              onClick={handleShow}
                               className="btn btn-lg"
                               style={{ backgroundColor: "#FF302F" }}
                             >
-                                Get in touch!
+                              Get in touch!
                             </button>
                           </div>
+                          <Modal show={modal} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                              <Modal.Title>Message Sent!</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                              Your message was sent and I will get in touch with you soon!
+                            </Modal.Body>
+                            <Modal.Footer>
+                              <Button variant="primary" onClick={handleClose}>
+                                Send another message
+                              </Button>
+                              <Button variant="danger" onClick={handleClose}>
+                                Close
+                              </Button>
+                            </Modal.Footer>
+                          </Modal>
                         </fieldset>
                       </form>
                     </div>

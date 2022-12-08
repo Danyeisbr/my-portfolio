@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { FaBootstrap, FaReact, FaNodeJs } from "react-icons/fa";
@@ -19,6 +22,12 @@ import { TbBrandNextjs } from "react-icons/tb";
 import '../stylesheets/Icons.css';
 
 function About() {
+  useEffect(() => {
+    AOS.init({
+      delay: 700,
+      duration: 1000,
+    });
+  });
   return (
     <div className="container-fluid">
       <div className="row">
@@ -29,7 +38,7 @@ function About() {
             //style={{ "backgroundColor": "#635d71" }}
           >
             <div className="col-md-3">
-              <div className="card mt-3 mb-3">
+              <div className="card mt-3 mb-3" >
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
@@ -77,7 +86,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card">
+              <div className="card" data-aos="fade-up">
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
                   <div className="card-body">
@@ -131,7 +140,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="card mt-3 mb-3">
+              <div className="card mt-3 mb-3" data-aos="fade-up">
                 <h3 className="card-header text-center"> Back-End </h3>
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">

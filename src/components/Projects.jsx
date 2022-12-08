@@ -60,6 +60,7 @@ export default function Projects() {
                   <a
                     target="_blank"
                     href="https://danyeisbr.github.io/weather-app/"
+                    rel="noreferrer"
                   >
                     <img src={require(`../images/weather-app.jpg`)} alt="weather" />
                   </a>
@@ -70,6 +71,7 @@ export default function Projects() {
                   <a
                     target="_blank"
                     href="https://danyeisbr.github.io/react-tasks-app/"
+                    rel="noreferrer"
                   >
                     <img src={require(`../images/tasks-app.png`)} alt="tasks" />
                   </a>
@@ -80,6 +82,7 @@ export default function Projects() {
                   <a
                     target="_blank"
                     href="https://danyeisbr.github.io/tourism-app/"
+                    rel="noreferrer"
                   >
                   <img
                     src={require(`../images/landscapes-app.jpg`)}
@@ -93,9 +96,10 @@ export default function Projects() {
                   <a
                     href="https://danyeisbr.github.io/react-rick-and-morty/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <img
-                      src={require(`../images/rick-morty-app1.png`)}
+                      src={require(`../images/rick-morty-app.png`)}
                       alt="rick-morty"
                     />
                   </a>
@@ -106,6 +110,7 @@ export default function Projects() {
                   <a
                     href="https://danyeisbr.github.io/calculator-app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                   <img
                     src={require(`../images/calculator-app.png`)}
