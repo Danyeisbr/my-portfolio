@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React, { useState, useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
@@ -5,8 +8,10 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+  });
   const [modal, setModal] = useState(false);
-
   const handleClose = () => setModal(false);
   const handleShow = () => setModal(true);
 
@@ -42,7 +47,11 @@ function Contact() {
               minHeight: "80vh",
             }}
           >
-            <div className="col-md-5">
+            <div
+              className="col-md-5"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div className="row">
                 <div className="col">
                   <div className="card">
@@ -100,7 +109,8 @@ function Contact() {
                               <Modal.Title>Message Sent!</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                              Your message was sent and I will get in touch with you soon!
+                              Your message was sent and I will get in touch with
+                              you soon!
                             </Modal.Body>
                             <Modal.Footer>
                               <Button variant="primary" onClick={handleClose}>
@@ -118,7 +128,11 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 py-5">
+            <div
+              className="col-md-4 py-5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="row d-flex flex-column">
                 <div className="col">
                   <h4>

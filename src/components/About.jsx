@@ -19,14 +19,11 @@ import {
   SiJavascript,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import '../stylesheets/Icons.css';
+import "../stylesheets/Icons.css";
 
 function About() {
   useEffect(() => {
-    AOS.init({
-      delay: 700,
-      duration: 1000,
-    });
+    AOS.init();
   });
   return (
     <div className="container-fluid">
@@ -38,41 +35,65 @@ function About() {
             //style={{ "backgroundColor": "#635d71" }}
           >
             <div className="col-md-3">
-              <div className="card mt-3 mb-3" data-aos="fade-up">
+              <div
+                className="card mt-3 mb-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <AiFillHtml5 size="5rem" color="#e44d26" className="icon"/>
+                      <AiFillHtml5
+                        size="5rem"
+                        color="#e44d26"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <DiCss3 size="5rem" color="#156eb0" className="icon"/>
+                      <DiCss3 size="5rem" color="#156eb0" className="icon" />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiJavascript size="5rem" color="#f3cf01" className="icon"/>
-                    </h5>
-                    <br />
-                    <br />
-                  </div>
-                  <div className="row col-md-12 d-inline">
-                    <h5 className="card-text d-inline">
-                      <FaBootstrap size="5rem" color="#7a11f7" className="icon"/>
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <FaReact size="5rem" color="green" className="icon"/>
-                    </h5>
-                    <h5 className="card-text d-inline">
-                      <SiTailwindcss size="5rem" color="purple" className="icon"/>
+                      <SiJavascript
+                        size="5rem"
+                        color="#f3cf01"
+                        className="icon"
+                      />
                     </h5>
                     <br />
                     <br />
                   </div>
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <SiMaterialui size="5rem" color="#0071e3" className="icon" />
+                      <FaBootstrap
+                        size="5rem"
+                        color="#7a11f7"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiRedux size="5rem" color="#593d88" className="icon"/>
+                      <FaReact size="5rem" color="green" className="icon" />
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiTailwindcss
+                        size="5rem"
+                        color="purple"
+                        className="icon"
+                      />
+                    </h5>
+                    <br />
+                    <br />
+                  </div>
+                  <div className="row col-md-12 d-inline">
+                    <h5 className="card-text d-inline">
+                      <SiMaterialui
+                        size="5rem"
+                        color="#0071e3"
+                        className="icon"
+                      />
+                    </h5>
+                    <h5 className="card-text d-inline">
+                      <SiRedux size="5rem" color="#593d88" className="icon" />
                     </h5>
                   </div>
                 </div>
@@ -86,7 +107,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card" data-aos="fade-up">
+              <div className="card" data-aos="fade-up" data-aos-duration="2000">
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
                   <div className="card-body">
@@ -114,12 +135,20 @@ function About() {
                     <div className="row">
                       <div className="col d-flex justify-content-center">
                         <h5 className="card-text d-inline">
-                          <SiVisualstudiocode size="5rem" color="#038bcf" className="icon"/>
+                          <SiVisualstudiocode
+                            size="5rem"
+                            color="#038bcf"
+                            className="icon"
+                          />
                         </h5>
                       </div>
                       <div className="col d-flex justify-content-center">
                         <h5 className="card-text d-inline">
-                          <BsGithub size="5rem" color="black" className="icon"/>
+                          <BsGithub
+                            size="5rem"
+                            color="black"
+                            className="icon"
+                          />
                         </h5>
                       </div>
                       <br />
@@ -132,49 +161,71 @@ function About() {
                     type="button"
                     className="btn btn-lg col-md-12"
                     style={{ backgroundColor: "#FF302F" }}
-                  ><a className="nav-link" href="#contact">
-                    Let's make something special!</a>
+                  >
+                    <a className="nav-link" href="#contact">
+                      Let's make something special!
+                    </a>
                   </button>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>
             </div>
             <div className="col-md-3">
-              <div className="card mt-3 mb-3" data-aos="fade-up">
+              <div
+                className="card mt-3 mb-3"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <h3 className="card-header text-center"> Back-End </h3>
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <TbBrandNextjs size="5rem" color="black" className="icon" />
+                      <TbBrandNextjs
+                        size="5rem"
+                        color="black"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
                       <FaNodeJs size="5rem" color="#026e00" className="icon" />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiExpress size="5rem" color="black" className="icon"/>
+                      <SiExpress size="5rem" color="black" className="icon" />
                     </h5>
                     <br />
                     <br />
                   </div>
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <SiPostgresql size="5rem" color="#31648c" className="icon"/>
+                      <SiPostgresql
+                        size="5rem"
+                        color="#31648c"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiSequelize size="5rem" color="#3c76c3" className="icon"/>
+                      <SiSequelize
+                        size="5rem"
+                        color="#3c76c3"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <GrMysql size="5rem" color="#037790" className="icon"/>
+                      <GrMysql size="5rem" color="#037790" className="icon" />
                     </h5>
                     <br />
                     <br />
                   </div>
                   <div className="row col-md-12 d-inline">
                     <h5 className="card-text d-inline">
-                      <SiMicrosoftsqlserver size="5rem" color="#d84f4d" className="icon"/>
+                      <SiMicrosoftsqlserver
+                        size="5rem"
+                        color="#d84f4d"
+                        className="icon"
+                      />
                     </h5>
                     <h5 className="card-text d-inline">
-                      <SiPhp size="5rem" color="gray" className="icon"/>
+                      <SiPhp size="5rem" color="gray" className="icon" />
                     </h5>
                   </div>
                 </div>

@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import SwiperCore, {
@@ -15,6 +18,9 @@ import "../stylesheets/ImagesSlider.css";
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="container-fluid">
       <div className="row">
@@ -24,7 +30,12 @@ export default function Projects() {
             className="row min-vh-100 align-items-center justify-content-center "
             //style={{ backgroundColor: "#635d71" }}
           >
-            <div className="container">
+            <div
+              className="container"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000"
+            >
               <div className="title_wrapper">
                 <div className="title_">
                   <h2>
@@ -62,7 +73,10 @@ export default function Projects() {
                     href="https://danyeisbr.github.io/weather-app/"
                     rel="noreferrer"
                   >
-                    <img src={require(`../images/weather-app.jpg`)} alt="weather" />
+                    <img
+                      src={require(`../images/weather-app.jpg`)}
+                      alt="weather"
+                    />
                   </a>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -84,10 +98,10 @@ export default function Projects() {
                     href="https://danyeisbr.github.io/tourism-app/"
                     rel="noreferrer"
                   >
-                  <img
-                    src={require(`../images/landscapes-app.jpg`)}
-                    alt="landscapes"
-                  />
+                    <img
+                      src={require(`../images/landscapes-app.jpg`)}
+                      alt="landscapes"
+                    />
                   </a>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -112,10 +126,10 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                  <img
-                    src={require(`../images/calculator-app.png`)}
-                    alt="calculator"
-                  />
+                    <img
+                      src={require(`../images/calculator-app.png`)}
+                      alt="calculator"
+                    />
                   </a>
                 </SwiperSlide>
               </Swiper>

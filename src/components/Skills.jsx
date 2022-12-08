@@ -3,10 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function Skills() {
   useEffect(() => {
-    AOS.init({
-      delay: 700,
-      duration: 1000,
-    });
+    AOS.init();
   });
   return (
     <div className="container-fluid">
@@ -18,7 +15,11 @@ function Skills() {
             //style={{ "backgroundColor": "#1d1d1d"}}
           >
             <div className="col-md-5">
-              <div className="card mb-3" data-aos="fade-up">
+              <div
+                className="card mb-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <h3 className="card-header text-center">Skills</h3>
                 <div className="card-body">
                   <h5 className="card-text">
@@ -56,7 +57,11 @@ function Skills() {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="card mb-3" data-aos="fade-up">
+              <div
+                className="card mb-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <h3 className="card-header text-center"> Experience </h3>
                 <div className="card-body">
                   <h6 className="card-text">Front-end</h6>
