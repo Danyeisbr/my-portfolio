@@ -38,7 +38,7 @@ function About() {
             //style={{ "backgroundColor": "#635d71" }}
           >
             <div className="col-md-3">
-              <div className="card mt-3 mb-3" >
+              <div className="card mt-3 mb-3" data-aos="fade-up">
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
                   <div className="row col-md-12 d-inline">
