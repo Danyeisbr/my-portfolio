@@ -108,17 +108,17 @@ function Footer() {
             </div>
             <div className="col-md-12">
               <div className="d-flex flex-row align-items-center justify-content-around">
-                <div className="py-3">
-                  <h2 className="h2 text-white">
+                <div className="py-2">
+                  <h4>
                     <strong style={{ color: "#FF302F" }}>Dan</strong>yeis
-                  </h2>
+                  </h4>
                 </div>
-                <div className="py-3">
+                <div className="py-2">
                   <h5 className="text-muted">
                     &copy; Copyrights. All rights reserved.{" "}
                   </h5>
                 </div>
-                <div className="py-3">
+                <div className="py-2">
                   <h4>
                     Created by <strong style={{ color: "#FF302F" }}>Dan</strong>
                     yeis

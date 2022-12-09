@@ -42,9 +42,8 @@ function Contact() {
             id="contact"
             className="row d-flex justify-content-center align-items-center"
             style={{
-              //backgroundColor: "#212529",
-              backgroundImage: `url("https://cdn.dorik.com/5e3f05572ec26d00126dc051/61b87ff1675711001197f12c/images/ZK_Home_Testimonial_bg_Img_3yxs7p8z.jpg")`,
-              minHeight: "80vh",
+              backgroundColor: "#212529",
+              minHeight: "70vh",
             }}
           >
             <div
@@ -66,7 +65,8 @@ function Contact() {
                             <input
                               type="text"
                               name="user_name"
-                              className="form-control mt-4 form-control-lg"
+                              className="form-control mt-4"
+                              //form-control-lg to have the form greater
                               id="exampleInputName"
                               aria-describedby="nameHelp"
                               rows="3"
@@ -77,7 +77,7 @@ function Contact() {
                             <input
                               type="email"
                               name="user_email"
-                              className="form-control mt-4 form-control-lg"
+                              className="form-control mt-4"
                               id="exampleInputEmail1"
                               aria-describedby="emailHelp"
                               rows="3"
@@ -87,7 +87,7 @@ function Contact() {
                           <div className="form-group">
                             <textarea
                               name="message"
-                              className="form-control mt-4 form-control-lg"
+                              className="form-control mt-4"
                               id="exampleTextarea"
                               rows="3"
                               placeholder="Your Message"
@@ -129,7 +129,7 @@ function Contact() {
               </div>
             </div>
             <div
-              className="col-md-4 py-5"
+              className="col-md-4"
               data-aos="fade-left"
               data-aos-duration="1000"
             >

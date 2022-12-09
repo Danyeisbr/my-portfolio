@@ -1,3 +1,5 @@
+import "../stylesheets/Navbar.css";
+
 function Navbar() {
   return (
     <div className="col-md-12">

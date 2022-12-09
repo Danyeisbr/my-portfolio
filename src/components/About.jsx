@@ -31,14 +31,13 @@ function About() {
         <div className="col-md-12">
           <div
             id="about"
-            className="row min-vh-100 align-items-center justify-content-center "
-            //style={{ "backgroundColor": "#635d71" }}
+            className="row min-vh-100 align-items-center justify-content-center"
           >
             <div className="col-md-3">
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-up"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
@@ -98,38 +97,37 @@ function About() {
                   </div>
                 </div>
                 <div className="card-body">
-                  <h5 className="card-text">
+                  <p className="card-text text-center">
                     Front-end: HTML5, CSS3, JavaScript, Bootstrap, React,
                     Tailwind, Material-UI, Redux, Visual Studio Code.
-                  </h5>
+                  </p>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card" data-aos="fade-up" data-aos-duration="2000">
+              <div className="card" 
+              data-aos="fade-up" 
+              data-aos-duration="1000"
+              >
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
                   <div className="card-body">
-                    <h5 className="card-text text-center">
+                    <p className="card-text text-center">
                       I’m a Full Stack Developer located in Colombia. I have a
                       great passion for UI design, and creating intuitive,
                       dynamic user experiences.
-                    </h5>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-text text-center">
+                    </p> 
+                    <p className="card-text text-center">
                       Well-organized person, disciplined, problem solver,
                       reliable and willing to work in a team. Love playing my
                       guitar, making music, outdoor activities, traveling and
                       reading.
-                    </h5>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-text text-center">
+                    </p>
+                    <p className="card-text text-center">
                       Interested in the entire frontend gamut and working on
                       projects that help me grow professionally.
-                    </h5>
+                    </p>
                   </div>
                   <div className="card-body bg-light">
                     <div className="row">
@@ -174,7 +172,7 @@ function About() {
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-up"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <h3 className="card-header text-center"> Back-End </h3>
                 <div className="card-body bg-light">
@@ -230,10 +228,10 @@ function About() {
                   </div>
                 </div>
                 <div className="card-body">
-                  <h5 className="card-text">
+                  <p className="card-text text-center">
                     Back-end: NextJS, Node JS, Express, PostgreSQL, Sequalize,
                     MySQL, SQL Server, PHP.
-                  </h5>
+                  </p>
                 </div>
                 <div className="card-footer text-muted"> </div>
               </div>

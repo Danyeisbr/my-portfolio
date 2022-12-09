@@ -27,14 +27,13 @@ export default function Projects() {
         <div className="col-md-12">
           <div
             id="projects"
-            className="row min-vh-100 align-items-center justify-content-center "
-            //style={{ backgroundColor: "#635d71" }}
+            className="row min-vh-100 align-items-center justify-content-center"
           >
             <div
               className="container"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <div className="title_wrapper">
                 <div className="title_">
@@ -91,20 +90,6 @@ export default function Projects() {
                   </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <h4 className="text-center">Turism App</h4>
-                  <p className="text-center">HTML, CSS & React</p>
-                  <a
-                    target="_blank"
-                    href="https://danyeisbr.github.io/tourism-app/"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={require(`../images/landscapes-app.jpg`)}
-                      alt="landscapes"
-                    />
-                  </a>
-                </SwiperSlide>
-                <SwiperSlide>
                   <h4 className="text-center">Rick & Morty App</h4>
                   <p className="text-center">Vite, React & Bootstrap</p>
                   <a
@@ -129,6 +114,20 @@ export default function Projects() {
                     <img
                       src={require(`../images/calculator-app.png`)}
                       alt="calculator"
+                    />
+                  </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <h4 className="text-center">Turism App</h4>
+                  <p className="text-center">HTML, CSS & React</p>
+                  <a
+                    target="_blank"
+                    href="https://danyeisbr.github.io/tourism-app/"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={require(`../images/landscapes-app.jpg`)}
+                      alt="landscapes"
                     />
                   </a>
                 </SwiperSlide>

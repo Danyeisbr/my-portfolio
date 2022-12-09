@@ -22,48 +22,6 @@ function Skills() {
               >
                 <h3 className="card-header text-center">Skills</h3>
                 <div className="card-body">
-                  <h5 className="card-text">
-                    Since beginning my journey as a technologist in software
-                    analysis and development, nearly 6 years ago, I created a
-                    web application for a company that needed to have more
-                    control in their production area, collaborating with
-                    talented people to create this web app for both business and
-                    consumer use. I created a successful responsive website that
-                    was fast, easy to use, and built with best practices. The
-                    main area of my experience now is front-end development,
-                    HTML5, CSS3, JavaScript, Bootstrap, React, TailwindCss,
-                    Material-UI, and Redux, building small and simple web apps,
-                    features, and coding interactive layouts. I also have a
-                    brief knowledge of back-end development with popular tools
-                    such as NextJS, Node JS, Express, PostgreSQL, Sequalize,
-                    MySQL, SQL Server, and PHP. Currently, I have been doing
-                    some work with open-source CMS like WordPress, Odoo, and
-                    others.
-                  </h5>
-                  <h5>
-                    Visit my{" "}
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/"
-                      rel="noreferrer"
-                    >
-                      LinkedIn{" "}
-                    </a>
-                    profile for more details or just{" "}
-                    <a href="#contact">contact </a>me.
-                  </h5>
-                </div>
-                <div className="card-footer text-muted"> </div>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <div
-                className="card mb-3"
-                data-aos="zoom-in-up"
-                data-aos-duration="1000"
-              >
-                <h3 className="card-header text-center"> Experience </h3>
-                <div className="card-body">
                   <h6 className="card-text">Front-end</h6>
                   <div className="progress">
                     <div
@@ -108,18 +66,61 @@ function Skills() {
                       aria-valuemax="100"
                     ></div>
                   </div>
+                  <br />
+                  <p>
+                    The main area of my experience now is front-end development,
+                    HTML5, CSS3, JavaScript, Bootstrap, React, TailwindCss,
+                    Material-UI, and Redux, building small and simple web apps,
+                    features, and coding interactive layouts. 
+                  </p>
                 </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">
-                    <h5>
-                      I’m a Front-End Developer located in Colombia. I have a
-                      great passion for UI design, animations and creating
-                      intuitive, dynamic user experiences.
-                    </h5>
-                  </li>
-                </ul>
+                <div className="card-footer text-muted text-center">
+                  <p>
+                    Visit my{" "}
+                    <a
+                      className="text-decoration-none"
+                      target="_blank"
+                      href="https://www.linkedin.com/in/danyeis-bravo-ramirez-204238243/"
+                      rel="noreferrer"
+                    >
+                      LinkedIn{" "}
+                    </a>
+                    profile for more details or just{" "}
+                    <a href="#contact" className="text-decoration-none">
+                      contact{" "}
+                    </a>
+                    me.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-5">
+              <div
+                className="card mb-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
+                <h3 className="card-header text-center"> Experience </h3>
                 <div className="card-body">
-                  <button
+                  <p className="card-text text-center">
+                    Since beginning my journey as a technologist in software
+                    analysis and development, nearly 6 years ago, I created a
+                    web application for a company that needed to have more
+                    control in their production area, collaborating with
+                    talented people to create this web app for both business and
+                    consumer use. I created a successful responsive website that
+                    was fast, easy to use, and built with best practices.{" "}
+                  </p>
+                  <p className="card-text text-center">
+                    I also have a brief knowledge of back-end development with
+                    popular tools such as NextJS, Node JS, Express, PostgreSQL,
+                    Sequalize, MySQL, SQL Server, and PHP. Currently, I have
+                    been doing some work with open-source CMS like WordPress,
+                    Odoo, and others.
+                  </p>
+                </div>
+                  
+                <div className="card-footer"> <button
                     type="button"
                     className="btn btn-lg col-md-12"
                     style={{ backgroundColor: "#FF302F" }}
@@ -127,9 +128,7 @@ function Skills() {
                     <a className="nav-link" href="#contact">
                       Let's talk about your project!
                     </a>
-                  </button>
-                </div>
-                <div className="card-footer text-muted"> </div>
+                  </button> </div>
               </div>
             </div>
           </div>

@@ -9,7 +9,6 @@ function Home() {
           <div
             id="home"
             className="row min-vh-100 d-flex flex-column justify-content-center align-items-center"
-            // style={{ "backgroundColor": "#232741" }}
           >
             <div className="col-md-4">
               <h1>
@@ -49,12 +48,10 @@ function Home() {
               <br /> <br />
               <button
                 type="button"
-                style={{ backgroundColor: "#FF302F" }}
+                style={{ "backgroundColor": "#FF302F" }}
                 className="btn btn-lg col-md-12"
-              >
-                <a className="nav-link" href="#projects">
-                  Portfolio
-                </a>
+              ><a className="nav-link" href="#projects">
+                Portfolio</a>
               </button>
             </div>
           </div>
