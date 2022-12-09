@@ -50,7 +50,7 @@ function Contact() {
               <div className="row">
                 <div className="col">
                   <div className="card">
-                    <h2 className="card-header">
+                    <h2 className="card-header text-center">
                       {" "}
                       <strong>Work Inquiry</strong>
                     </h2>

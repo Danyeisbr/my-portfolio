@@ -100,10 +100,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card" 
-              data-aos="fade-up" 
-              data-aos-duration="2000"
-              >
+              <div className="card" data-aos="fade-up" data-aos-duration="2000">
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
                   <div className="card-body">
@@ -111,7 +108,7 @@ function About() {
                       I’m a Full Stack Developer located in Colombia. I have a
                       great passion for UI design, and creating intuitive,
                       dynamic user experiences.
-                    </p> 
+                    </p>
                     <p className="card-text text-center">
                       Well-organized person, disciplined, problem solver,
                       reliable and willing to work in a team. Love playing my
