@@ -1,14 +1,9 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import required modules
 import SwiperCore, {
   EffectCoverflow,
   Pagination,
   Navigation,
 } from "swiper/core";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
@@ -18,9 +13,6 @@ import "../stylesheets/ImagesSlider.css";
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 export default function Projects() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="container-fluid">
       <div className="row">

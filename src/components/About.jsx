@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { FaBootstrap, FaReact, FaNodeJs } from "react-icons/fa";
@@ -22,9 +19,6 @@ import { TbBrandNextjs } from "react-icons/tb";
 import "../stylesheets/Icons.css";
 
 function About() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="container-fluid">
       <div className="row">
@@ -37,7 +31,7 @@ function About() {
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="2000"
               >
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
@@ -108,7 +102,7 @@ function About() {
             <div className="col-md-4">
               <div className="card" 
               data-aos="fade-up" 
-              data-aos-duration="1000"
+              data-aos-duration="2000"
               >
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
@@ -172,7 +166,7 @@ function About() {
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="2000"
               >
                 <h3 className="card-header text-center"> Back-End </h3>
                 <div className="card-body bg-light">

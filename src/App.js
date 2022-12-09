@@ -1,6 +1,3 @@
-// import { useEffect } from "react";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootswatch/dist/darkly/bootstrap.min.css";
 import './index.css';
@@ -14,9 +11,6 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  // useEffect(() => {
-  //   AOS.init();
-  // });
   return (
     <>
       <Navbar />

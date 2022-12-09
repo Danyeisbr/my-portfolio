@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import React, { useState, useRef } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
@@ -8,12 +5,9 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function Contact() {
-  useEffect(() => {
-    AOS.init();
-  });
   const [modal, setModal] = useState(false);
   const handleClose = () => setModal(false);
-  const handleShow = () => setModal(true);
+  const handleSuccess = () => setModal(true);
 
   const form = useRef();
   const sendEmail = (e) => {
@@ -27,9 +21,11 @@ function Contact() {
       )
       .then(
         (result) => {
+          handleSuccess();
           console.log(result.text);
         },
         (error) => {
+          alert("Message was not sent");
           console.log(error.text);
         }
       );
@@ -59,17 +55,19 @@ function Contact() {
                       <strong>Work Inquiry</strong>
                     </h2>
                     <div className="card-body">
-                      <form ref={form} onSubmit={sendEmail}>
+                      <form 
+                        ref={form} 
+                        onSubmit={sendEmail}
+                      >
                         <fieldset>
                           <div className="form-group">
                             <input
-                              type="text"
-                              name="user_name"
                               className="form-control mt-4"
-                              //form-control-lg to have the form greater
+                              type="text"
+                              required
+                              name="user_name"
                               id="exampleInputName"
                               aria-describedby="nameHelp"
-                              rows="3"
                               placeholder="Your name"
                             />
                           </div>
@@ -77,10 +75,11 @@ function Contact() {
                             <input
                               type="email"
                               name="user_email"
+                              required
                               className="form-control mt-4"
+                              //form-control-lg to have the form greater
                               id="exampleInputEmail1"
                               aria-describedby="emailHelp"
-                              rows="3"
                               placeholder="Your email"
                             />
                           </div>
@@ -88,6 +87,7 @@ function Contact() {
                             <textarea
                               name="message"
                               className="form-control mt-4"
+                              required
                               id="exampleTextarea"
                               rows="3"
                               placeholder="Your Message"
@@ -97,7 +97,6 @@ function Contact() {
                           <div className="d-grid gap-2">
                             <button
                               type="submit"
-                              onClick={handleShow}
                               className="btn btn-lg"
                               style={{ backgroundColor: "#FF302F" }}
                             >

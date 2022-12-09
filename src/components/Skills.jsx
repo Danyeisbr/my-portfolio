@@ -1,10 +1,4 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 function Skills() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="container-fluid">
       <div className="row">
@@ -12,7 +6,6 @@ function Skills() {
           <div
             id="skills"
             className="row min-vh-100 d-flex align-items-center justify-content-center"
-            //style={{ "backgroundColor": "#1d1d1d"}}
           >
             <div className="col-md-5">
               <div
