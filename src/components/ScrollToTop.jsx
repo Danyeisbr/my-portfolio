@@ -1,6 +1,6 @@
 import React from 'react';
 import {useEffect, useState} from 'react';
-import { BiUpArrow } from "react-icons/bi";
+//import { BiUpArrow } from "react-icons/bi";
 import { HiArrowCircleUp } from "react-icons/hi";
 
 import '../stylesheets/ScrollToTop.css';
