@@ -1,6 +1,7 @@
 import React from 'react';
 import {useEffect, useState} from 'react';
 import { BiUpArrow } from "react-icons/bi";
+import { HiArrowCircleUp } from "react-icons/hi";
 
 import '../stylesheets/ScrollToTop.css';
 
@@ -28,7 +29,7 @@ const ScrollToTop = () => {
             {backToTopButtom && (
                 <button className='cm-up' onClick={scrollUp}> 
                     <span className="cm-icon">
-                        <BiUpArrow/>
+                        <HiArrowCircleUp/>
                         {/* <i className="fas fa-chevron-up"></i> */}
                     </span>
                 </button>
