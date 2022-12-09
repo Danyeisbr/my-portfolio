@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8c9f902c.css",
-    "main.js": "/my-portfolio/static/js/main.40e13d01.js",
+    "main.css": "/my-portfolio/static/css/main.2da48211.css",
+    "main.js": "/my-portfolio/static/js/main.1a2c5b2a.js",
     "static/media/landscapes-app.jpg": "/my-portfolio/static/media/landscapes-app.5cb074d5b66825d3ca29.jpg",
     "static/media/weather-app.jpg": "/my-portfolio/static/media/weather-app.b633d93d15626e79e0b3.jpg",
     "static/media/rick-morty-app.png": "/my-portfolio/static/media/rick-morty-app.03884a44fb5f7646e36b.png",
     "static/media/tasks-app.png": "/my-portfolio/static/media/tasks-app.2ad68c969aa1f938d35f.png",
     "static/media/calculator-app.png": "/my-portfolio/static/media/calculator-app.1fb71a4044b7ecf55fae.png",
     "index.html": "/my-portfolio/index.html",
-    "main.8c9f902c.css.map": "/my-portfolio/static/css/main.8c9f902c.css.map",
-    "main.40e13d01.js.map": "/my-portfolio/static/js/main.40e13d01.js.map"
+    "main.2da48211.css.map": "/my-portfolio/static/css/main.2da48211.css.map",
+    "main.1a2c5b2a.js.map": "/my-portfolio/static/js/main.1a2c5b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c9f902c.css",
-    "static/js/main.40e13d01.js"
+    "static/css/main.2da48211.css",
+    "static/js/main.1a2c5b2a.js"
   ]
 }
