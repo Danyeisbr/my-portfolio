@@ -64,7 +64,7 @@ function Skills() {
                     The main area of my experience now is front-end development,
                     HTML5, CSS3, JavaScript, Bootstrap, React, TailwindCss,
                     Material-UI, and Redux, building small and simple web apps,
-                    features, and coding interactive layouts. 
+                    features, and coding interactive layouts.
                   </p>
                 </div>
                 <div className="card-footer text-muted text-center">
@@ -112,8 +112,9 @@ function Skills() {
                     Odoo, and others.
                   </p>
                 </div>
-                  
-                <div className="card-footer"> <button
+                <div className="card-footer">
+                  {" "}
+                  <button
                     type="button"
                     className="btn btn-lg col-md-12"
                     style={{ backgroundColor: "#FF302F" }}
@@ -121,7 +122,8 @@ function Skills() {
                     <a className="nav-link" href="#contact">
                       Let's talk about your project!
                     </a>
-                  </button> </div>
+                  </button>{" "}
+                </div>
               </div>
             </div>
           </div>

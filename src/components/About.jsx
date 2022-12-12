@@ -30,7 +30,7 @@ function About() {
             <div className="col-md-3">
               <div
                 className="card mt-3 mb-3"
-                data-aos="fade-up"
+                data-aos="fade-right"
                 data-aos-duration="2000"
               >
                 <h3 className="card-header text-center"> Front-End </h3>
@@ -100,7 +100,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card" data-aos="fade-up" data-aos-duration="2000">
+              <div className="card" data-aos="zoom-in-up" data-aos-duration="2000">
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
                   <div className="card-body">
@@ -156,13 +156,12 @@ function About() {
                     </a>
                   </button>
                 </div>
-                <div className="card-footer text-muted"> </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
                 className="card mt-3 mb-3"
-                data-aos="fade-up"
+                data-aos="fade-left"
                 data-aos-duration="2000"
               >
                 <h3 className="card-header text-center"> Back-End </h3>

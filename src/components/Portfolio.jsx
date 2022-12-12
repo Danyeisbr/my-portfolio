@@ -12,19 +12,18 @@ import "../stylesheets/ImagesSlider.css";
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
-export default function Projects() {
+export default function Portfolio() {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
           <div
-            id="projects"
+            id="portfolio"
             className="row min-vh-100 align-items-center justify-content-center"
           >
             <div
               className="container"
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
+              data-aos="zoom-in-up"
               data-aos-duration="2000"
             >
               <div className="title_wrapper">

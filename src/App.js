@@ -1,14 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootswatch/dist/darkly/bootstrap.min.css";
-import './index.css';
+import "./index.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,9 +18,8 @@ function App() {
       <About />
       <Skills />
       <Services />
-      <Projects />
+      <Portfolio />
       <Contact />
-      <Footer />
       <ScrollToTop />
     </>
   );

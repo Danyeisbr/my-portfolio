@@ -1,3 +1,4 @@
+
 import { Typewriter } from "react-simple-typewriter";
 import ParticleBubble from "../particles/ParticleBubble";
 function Home() {
@@ -48,10 +49,12 @@ function Home() {
               <br /> <br />
               <button
                 type="button"
-                style={{ "backgroundColor": "#FF302F" }}
+                style={{ backgroundColor: "#FF302F" }}
                 className="btn btn-lg col-md-12"
-              ><a className="nav-link" href="#projects">
-                Portfolio</a>
+              >
+                <a className="nav-link" href="#portfolio">
+                  Portfolio
+                </a>
               </button>
             </div>
           </div>

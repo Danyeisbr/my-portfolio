@@ -25,7 +25,10 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarColor02">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#home">
+                <a
+                  className="nav-link"
+                  href="#home"
+                >
                   <h5>Home</h5>
                   <span className="visually-hidden">(current)</span>
                 </a>
@@ -46,7 +49,7 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
+                <a className="nav-link" href="#portfolio">
                   <h5>Portfolio</h5>
                 </a>
               </li>
