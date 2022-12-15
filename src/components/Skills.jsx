@@ -2,12 +2,12 @@ function Skills() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-12">
           <div
             id="skills"
             className="row min-vh-100 d-flex align-items-center justify-content-center"
           >
-            <div className="col-md-5">
+            <div className="col-5">
               <div
                 className="card mb-3"
                 data-aos="zoom-in-up"
@@ -87,7 +87,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-5">
               <div
                 className="card mb-3"
                 data-aos="zoom-in-up"
@@ -116,7 +116,7 @@ function Skills() {
                   {" "}
                   <button
                     type="button"
-                    className="btn btn-lg col-md-12"
+                    className="btn btn-lg col-12"
                     style={{ backgroundColor: "#FF302F" }}
                   >
                     <a className="nav-link" href="#contact">

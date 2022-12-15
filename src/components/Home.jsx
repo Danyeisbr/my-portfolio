@@ -5,13 +5,13 @@ function Home() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-12">
           <ParticleBubble />
           <div
             id="home"
             className="row min-vh-100 d-flex flex-column justify-content-center align-items-center"
           >
-            <div className="col-md-4">
+            <div className="col-4">
               <h1>
                 <br />
                 Hi, <br />
@@ -50,7 +50,7 @@ function Home() {
               <button
                 type="button"
                 style={{ backgroundColor: "#FF302F" }}
-                className="btn btn-lg col-md-12"
+                className="btn btn-lg col-12"
               >
                 <a className="nav-link" href="#portfolio">
                   Portfolio

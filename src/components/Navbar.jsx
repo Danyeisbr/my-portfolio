@@ -2,7 +2,7 @@ import "../stylesheets/Navbar.css";
 
 function Navbar() {
   return (
-    <div className="col-md-12">
+    <div className="col-12">
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#home">
@@ -58,7 +58,7 @@ function Navbar() {
             <form className="d-flex">
               <button
                 type="button"
-                className="btn col-md-12"
+                className="btn col-12"
                 style={{ backgroundColor: "#FF302F" }}
               >
                 <a className="nav-link" href="#contact">

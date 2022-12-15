@@ -34,7 +34,7 @@ function Contact() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-12">
           <div
             id="contact"
             className="row min-vh-100 d-flex align-items-end"
@@ -44,7 +44,7 @@ function Contact() {
           >
             <div className="row d-flex justify-content-center align-items-center">
               <div
-                className="col-md-5"
+                className="col-5"
                 data-aos="zoom-in"
                 data-aos-duration="1000"
               >
@@ -122,7 +122,7 @@ function Contact() {
                 </div>
               </div>
               <div
-                className="col-md-4"
+                className="col-4"
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
@@ -151,10 +151,10 @@ function Contact() {
                       <BsFillStarFill color="#fdd500" />{" "}
                     </h4>
                     <p className="text-muted mb-0">
-                      5.00 (700+ Review) on Upwork.{" "}
+                      5.00 (700+ Review) on Testimonials.{" "}
                     </p>
                     <h2>
-                      <strong>Upwork</strong>
+                      <strong>Testimonials</strong>
                     </h2>
                   </div>
                 </div>

@@ -22,12 +22,12 @@ function About() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-12">
           <div
             id="about"
             className="row min-vh-100 align-items-center justify-content-center"
           >
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-right"
@@ -35,7 +35,7 @@ function About() {
               >
                 <h3 className="card-header text-center"> Front-End </h3>
                 <div className="card-body bg-light">
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <AiFillHtml5
                         size="5rem"
@@ -56,7 +56,7 @@ function About() {
                     <br />
                     <br />
                   </div>
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <FaBootstrap
                         size="5rem"
@@ -77,7 +77,7 @@ function About() {
                     <br />
                     <br />
                   </div>
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <SiMaterialui
                         size="5rem"
@@ -99,7 +99,7 @@ function About() {
                 <div className="card-footer text-muted"> </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-4">
               <div className="card" data-aos="zoom-in-up" data-aos-duration="2000">
                 <h3 className="card-header text-center"> About Me </h3>
                 <div className="card-body">
@@ -148,7 +148,7 @@ function About() {
                 <div className="card-body">
                   <button
                     type="button"
-                    className="btn btn-lg col-md-12"
+                    className="btn btn-lg col-12"
                     style={{ backgroundColor: "#FF302F" }}
                   >
                     <a className="nav-link" href="#contact">
@@ -158,7 +158,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card mt-3 mb-3"
                 data-aos="fade-left"
@@ -166,7 +166,7 @@ function About() {
               >
                 <h3 className="card-header text-center"> Back-End </h3>
                 <div className="card-body bg-light">
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <TbBrandNextjs
                         size="5rem"
@@ -183,7 +183,7 @@ function About() {
                     <br />
                     <br />
                   </div>
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <SiPostgresql
                         size="5rem"
@@ -204,7 +204,7 @@ function About() {
                     <br />
                     <br />
                   </div>
-                  <div className="row col-md-12 d-inline">
+                  <div className="row col-12 d-inline">
                     <h5 className="card-text d-inline">
                       <SiMicrosoftsqlserver
                         size="5rem"

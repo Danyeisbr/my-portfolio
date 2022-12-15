@@ -16,7 +16,7 @@ export default function Portfolio() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-12">
           <div
             id="portfolio"
             className="row min-vh-100 align-items-center justify-content-center"
