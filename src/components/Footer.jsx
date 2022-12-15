@@ -11,7 +11,7 @@ function Footer() {
       className="row d-flex align-items-center justify-content-center"
       style={{ backgroundColor: "#212529" }}
     >
-      <div className="col-9">
+      <div className="col-lg-9 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
         <hr />
         <div className="row align-items-center">
           <div className="col">
@@ -100,7 +100,7 @@ function Footer() {
         </div>
         <hr />
       </div>
-      <div className="col-12">
+      <div className="col-lg-12 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
         <div className="d-flex flex-row align-items-center justify-content-around">
           <div className="py-2">
             <h4>

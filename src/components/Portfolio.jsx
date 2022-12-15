@@ -19,20 +19,14 @@ export default function Portfolio() {
         <div className="col-12">
           <div
             id="portfolio"
-            className="row min-vh-100 align-items-center justify-content-center"
+            className="row min-vh-100 d-flex flex-column align-items-center"
           >
-            <div
-              className="container"
-              data-aos="zoom-in-up"
-              data-aos-duration="2000"
-            >
-              <div className="title_wrapper">
-                <div className="title_">
-                  <h2>
-                    <strong> My Portfolio</strong>
-                  </h2>
-                </div>
-              </div>
+            <div className="col d-flex align-items-end justify-content-center">
+              <h2 className="text-center">
+                <strong> My Portfolio</strong>
+              </h2>
+            </div>
+            <div className="col w-75">
               <Swiper
                 style={{
                   "--swiper-navigation-color": "#fff",

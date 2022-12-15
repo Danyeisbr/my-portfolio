@@ -14,7 +14,7 @@ function Services() {
             className="row min-vh-100 d-flex align-content-center"
           >
             <div className="row d-flex justify-content-center">
-              <div className="col-5">
+              <div className="col-lg-5 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
                 <Card
                   icon={
                     <RiComputerFill
@@ -32,7 +32,7 @@ function Services() {
                   body="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, new features, functions, etc."
                 />
               </div>
-              <div className="col-5">
+              <div className="col-lg-5 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
                 <Card
                   icon={<BsFillStopwatchFill className="icon" color="#fff" size="3rem" />}
                   title="Website Optimization"

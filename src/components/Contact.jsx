@@ -44,7 +44,7 @@ function Contact() {
           >
             <div className="row d-flex justify-content-center align-items-center">
               <div
-                className="col-5"
+                className="col-lg-5 col-md-10 col-sm-10 col-xs-10 col-xxs-10"
                 data-aos="zoom-in"
                 data-aos-duration="1000"
               >
@@ -122,7 +122,7 @@ function Contact() {
                 </div>
               </div>
               <div
-                className="col-4"
+                className="col-lg-4 col-md-10 col-sm-10 col-xs-10 col-xxs-10"
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >

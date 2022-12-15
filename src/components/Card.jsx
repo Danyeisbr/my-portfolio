@@ -2,8 +2,8 @@ function Card(card) {
   return (
     <div className="card mb-3 rounded border border-white border-bottom-0" data-aos="zoom-in-up" data-aos-duration="1000">
      
-      <h3 className=" text-center">
-        <p>{card.icon}
+      <h3 className="text-center">
+        <p className="mt-3">{card.icon}
         </p> 
         {card.title} 
       </h3>

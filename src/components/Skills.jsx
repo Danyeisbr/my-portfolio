@@ -7,7 +7,7 @@ function Skills() {
             id="skills"
             className="row min-vh-100 d-flex align-items-center justify-content-center"
           >
-            <div className="col-5">
+            <div className="col-lg-5 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
               <div
                 className="card mb-3"
                 data-aos="zoom-in-up"
@@ -87,7 +87,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-lg-5 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
               <div
                 className="card mb-3"
                 data-aos="zoom-in-up"
