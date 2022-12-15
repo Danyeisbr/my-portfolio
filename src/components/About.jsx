@@ -37,7 +37,7 @@ function About() {
                 <div className="card-body bg-light">
                   <div className="row d-flex justify-content-center">
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <AiFillHtml5
                           size="5rem"
                           color="#e44d26"
@@ -46,12 +46,12 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <DiCss3 size="5rem" color="#156eb0" className="icon" />
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiJavascript
                           size="5rem"
                           color="#f3cf01"
@@ -60,7 +60,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <FaBootstrap
                           size="5rem"
                           color="#7a11f7"
@@ -69,12 +69,12 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <FaReact size="5rem" color="green" className="icon" />
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiTailwindcss
                           size="5rem"
                           color="purple"
@@ -83,7 +83,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiMaterialui
                           size="5rem"
                           color="#0071e3"
@@ -92,7 +92,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiRedux size="5rem" color="#593d88" className="icon" />
                       </h5>
                     </div>
@@ -104,7 +104,7 @@ function About() {
                     Tailwind, Material-UI, Redux, Visual Studio Code.
                   </p>
                 </div>
-                <div className="card-footer text-muted bg-primary"> </div>
+                <div className="card-footer text-muted bg-info"> </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-10 col-sm-10 col-xs-10 col-xxs-10">
@@ -135,7 +135,7 @@ function About() {
                   <div className="card-body bg-light">
                     <div className="row">
                       <div className="col d-flex justify-content-center">
-                        <h5 className="card-text d-inline">
+                        <h5 className="m-1">
                           <SiVisualstudiocode
                             size="5rem"
                             color="#038bcf"
@@ -144,7 +144,7 @@ function About() {
                         </h5>
                       </div>
                       <div className="col d-flex justify-content-center">
-                        <h5 className="card-text d-inline">
+                        <h5 className="m-1">
                           <BsGithub
                             size="5rem"
                             color="black"
@@ -180,7 +180,7 @@ function About() {
                 <div className="card-body bg-light">
                   <div className="row d-flex justify-content-center">
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <TbBrandNextjs
                           size="5rem"
                           color="black"
@@ -189,7 +189,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <FaNodeJs
                           size="5rem"
                           color="#026e00"
@@ -198,12 +198,12 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiExpress size="5rem" color="black" className="icon" />
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiPostgresql
                           size="5rem"
                           color="#31648c"
@@ -212,7 +212,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiSequelize
                           size="5rem"
                           color="#3c76c3"
@@ -221,12 +221,12 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <GrMysql size="5rem" color="#037790" className="icon" />
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiMicrosoftsqlserver
                           size="5rem"
                           color="#d84f4d"
@@ -235,7 +235,7 @@ function About() {
                       </h5>
                     </div>
                     <div className="col d-flex justify-content-center">
-                      <h5 className="card-text">
+                      <h5 className="m-1">
                         <SiPhp size="5rem" color="gray" className="icon" />
                       </h5>
                     </div>
@@ -247,7 +247,7 @@ function About() {
                     MySQL, SQL Server, PHP.
                   </p>
                 </div>
-                <div className="card-footer text-muted"> </div>
+                <div className="card-footer text-muted bg-info"> </div>
               </div>
             </div>
           </div>
