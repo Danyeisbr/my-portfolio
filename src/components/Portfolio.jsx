@@ -50,6 +50,34 @@ export default function Portfolio() {
                 className="mySwiper"
               >
                 <SwiperSlide>
+                  <h4 className="text-center">eCommerce-Technology</h4>
+                  <p className="text-center">HTML, CSS & JavaScript</p>
+                  <a
+                    target="_blank"
+                    href="https://ecommerce-app-danyeisbr.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={require(`../images/eCommerce-app.jpg`)}
+                      alt="weather"
+                    />
+                  </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <h4 className="text-center">eCommerce-Shoes</h4>
+                  <p className="text-center">HTML, CSS, JavaScript & Bootstrap</p>
+                  <a
+                    target="_blank"
+                    href="https://ecommerce-shoes-danyeisbr.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={require(`../images/eCommerce-shoes.jpg`)}
+                      alt="weather"
+                    />
+                  </a>
+                </SwiperSlide>
+                <SwiperSlide>
                   <h4 className="text-center">Weather App</h4>
                   <p className="text-center">HTML, CSS, React & Bootstrap</p>
                   <a
